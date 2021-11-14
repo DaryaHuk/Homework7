@@ -1,0 +1,15 @@
+.main {
+    width: 520px;
+    height: 500px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+  .star img:hover,
+  .star img:hover ~ img {
+    background-color: palegreen;
+    cursor: pointer;
+}
